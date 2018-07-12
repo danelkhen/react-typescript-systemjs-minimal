@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "system",
+    "rootDir": "src",
+    "outDir": "out",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

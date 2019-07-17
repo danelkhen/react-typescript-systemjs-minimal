@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
     "target": "es2018",
+    "moduleResolution": "node",
     "module": "system",
     "rootDir": "src",
     "outDir": "out",
     "jsx": "react",
     "strict": true,
-    "esModuleInterop": true
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }
